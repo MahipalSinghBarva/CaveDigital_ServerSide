@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 app.use('/uploads', express.static('uploads'));
 
-const whitelist = ['http://localhost:3000', "https://cavegigitlclientside.netlify.app/"];
+const whitelist = ['http://localhost:3000', 'https://cavegigitlclientside.netlify.app'];
 
 const corsOptions = {
     origin: function (origin, callback) {
